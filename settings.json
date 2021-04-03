@@ -1,0 +1,64 @@
+{
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "Anonymous Pro",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "eslint.validate": [
+        "javascript"
+      ],
+      "discord.detailsEditing": "Editing {workspace}",
+      "discord.detailsDebugging": "Debugging {empty}",
+      "discord.detailsIdling": "{empty}",
+      "liveServer.settings.donotShowInfoMsg": true,
+      "workbench.iconTheme": "material-icon-theme",
+      "workbench.colorTheme": "Atom One Dark",
+      // Enable per-language
+      "[javascript]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+      },
+      "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+      "workbench.startupEditor": "newUntitledFile",
+      "prettier.configPath": "C:\\prettier-config\\.prettierrc.json",
+      "prettier.printWidth": 100,
+      "prettier.singleQuote": true,
+      "editor.suggestSelection": "first",
+      "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+      "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+      },
+      "eslint.codeAction.showDocumentation": {
+        "enable": true
+      },
+      "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+          "wrap_attributes": "force-expand-multiline"
+        },
+        "prettyhtml": {
+          "printWidth": 100,
+          "singleQuote": false,
+          "wrapAttributes": false,
+          "sortAttributes": false
+        }
+      },
+      "prettier.jsxBracketSameLine": true,
+      "[javascriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+      },
+      "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "editor.tabSize": 2,
+      "git.autofetch": true,
+      "vetur.format.defaultFormatter.js": "none",
+      "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+      "prettier.trailingComma": "none",
+      "editor.formatOnSave": true,
+      "vetur.validation.template": false,
+      "window.zoomLevel": 1,
+}
