@@ -1,66 +1,47 @@
 {
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   "editor.cursorStyle": "block",
   "editor.fontFamily": "Anonymous Pro",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "eslint.validate": ["vue", "html", "javascriptreact", "javascript"],
-  "discord.detailsEditing": "Editing {workspace}",
-  "discord.detailsDebugging": "Debugging {empty}",
-  "discord.detailsIdling": "{empty}",
+  "window.nativeTabs": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "editorHoverWidget.highlightForeground": true,
+  "workbench.editor.enablePreview": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "material-icon-theme",
-  // Enable per-language
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.startupEditor": "newUntitledFile",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
-  },
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
-  "vetur.format.defaultFormatterOptions": {
-    "js-beautify-html": {
-      "wrap_attributes": "force-expand-multiline"
-    },
-    "prettyhtml": {
-      "printWidth": 100,
-      "singleQuote": false,
-      "wrapAttributes": false,
-      "sortAttributes": false
-    }
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  },
   "editor.tabSize": 2,
   "git.autofetch": true,
-  "vetur.format.defaultFormatter.js": "none",
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "prettier.trailingComma": "none",
   "vetur.validation.template": false,
   "eslint.format.enable": true,
   "git.ignoreRebaseWarning": true,
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".css",
-      "savePath": null
-    }
-  ],
-  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontSize": 15,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 12,
   "editor.formatOnSave": true,
-  "php.validate.executablePath": "",
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  "workbench.editorAssociations": {
+    "*.xlsx": "default"
   },
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "One Dark Pro"
+  "workbench.editor.untitled.hint": "hidden",
+  "eslint.alwaysShowStatus": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "diffEditor.ignoreTrimWhitespace": false
 }
